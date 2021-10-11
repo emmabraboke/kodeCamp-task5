@@ -1,6 +1,6 @@
 let books=[
     {   id: 1,   
-        name: "12 BYTES - JEANETTE WINTERSON",
+        name: "12 BYTES - JEANETTE",
         price: "$35",
         bookImage: "https://images.squarespace-cdn.com/content/v1/5ea4a128c6398826cb1be26d/1633387954561-IM0J2D5QJMHEUIRJ1A1R/18876C75-40C6-43DA-90A5-5EE7DBDBFCE1_4_5005_c.jpeg"
     },
@@ -72,7 +72,7 @@ books.forEach((e)=>{
 
     text+=`
     <div class="col-12 col-md-6 col-lg-3 text-center" id="${e.id}">
-    <button class="border-0 p-2 w-100 h-100">
+    <button class="border-0 p-2 w-100">
     <a href="cart.html" class="text-decoration-none text-dark"><div class="">
             <img src="${e.bookImage}" alt="" id="bookimg" class="img-fluid w-100">
           </div>
